@@ -21,3 +21,6 @@ def engToFr(eng):
 @app.route('/frToEng/<fr>', methods=['GET'])
 def frToEng(fr):
     return translator.frenchToEnglish(fr)
+
+
+app.run()
